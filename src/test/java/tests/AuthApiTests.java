@@ -13,7 +13,7 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Tag("REGRESS")
+
 @DisplayName("Авторизация по АПИ")
 public class AuthApiTests extends TestBase { //зачемто написала, но удалять жаль)
 
