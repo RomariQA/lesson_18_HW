@@ -20,7 +20,6 @@ public class TestBase {
         RestAssured.baseURI = "https://demoqa.com";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.browserSize = "1680 × 1050";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
@@ -34,12 +33,12 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
-        Attach.screenshotAs("Last screenshot");
-        if (!Configuration.browser.equals("firefox")) {
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
-        }
-        Attach.addVideo();
+//        Attach.screenshotAs("Last screenshot");
+//        if (!Configuration.browser.equals("firefox")) {
+//            Attach.pageSource();
+//            Attach.browserConsoleLogs();
+//        }
+//        Attach.addVideo();
         closeWebDriver();
     }
 }
