@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.BasketTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-14T14:47:17" hostname="DESKTOP-NHRDUES" time="3.341">
+  <properties/>
+  <testcase name="Успешное удаления товара из корзины авторизованного пользователя" classname="tests.BasketTests" time="3.341">
+    <failure message="java.lang.IllegalArgumentException: Required attributes are not set or any non-null attribute set to null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Required attributes are not set or any non-null attribute set to null
+	at org.openqa.selenium.Cookie.validate(Cookie.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:866)
+	at helpers.LoginException.beforeEach(LoginException.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://demoqa.com/Account/v1/Login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userName": "Mayaa",
+    "password": "MayaMaya1!"
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Vazilinushka\qa_guru\lesson_18_HW\build\downloads\1731595639328_10248_1
+нояб. 14, 2024 5:47:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 130
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=130.0.6723.117 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.4.2
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.23.1 build revision: 656257d8e9
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (df91b3af89db3994c578444b60a13f3d), downloadsFolder: C:\Users\Vazilinushka\qa_guru\lesson_18_HW\build\downloads\1731595639328_10248_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (df91b3af89db3994c578444b60a13f3d), proxy=null, downloadsFolder=C:\Users\Vazilinushka\qa_guru\lesson_18_HW\build\downloads\1731595639328_10248_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (df91b3af89db3994c578444b60a13f3d)
+]]></system-err>
+</testsuite>

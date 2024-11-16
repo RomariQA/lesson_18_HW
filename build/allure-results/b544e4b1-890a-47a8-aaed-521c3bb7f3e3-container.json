@@ -1,0 +1,1 @@
+{"uuid":"b544e4b1-890a-47a8-aaed-521c3bb7f3e3","name":"AuthApi","children":["00feab73-190c-4f78-8276-a5f13787545b"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1731594721336,"stop":1731594721757}],"afters":[],"start":1731594721310,"stop":1731594723832}

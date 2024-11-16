@@ -1,0 +1,1 @@
+{"uuid":"72584fc5-5344-4446-8d97-0557236a88ec","name":"Авторизация по АПИ","children":["a31f3ac2-a536-4bc4-a997-af9385dc27b5"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1731751616256,"stop":1731751616765}],"afters":[],"start":1731751616230,"stop":1731751619488}
